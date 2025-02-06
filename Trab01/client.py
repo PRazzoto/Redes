@@ -8,7 +8,7 @@ SERVER_IP = "127.0.0.1"  # Endereço IP do servidor
 SERVER_PORT = 12345
 CHUNK_SIZE = 1024  # Deve corresponder ao CHUNK_SIZE do servidor
 BUFFER_SIZE = 2048  # Deve ser >= CHUNK_SIZE + tamanho do cabeçalho
-PACKET_LOSS_PROBABILITY = 0.1  # Probabilidade de descartar um chunk (10%)
+PACKET_LOSS_PROBABILITY = 0.05  # Probabilidade de descartar um chunk (10%)
 MAX_RESEND_REQUEST_SIZE = (
     512  # Tamanho máximo da mensagem de solicitação de retransmissão (em bytes)
 )
